@@ -32,6 +32,7 @@ class FCDropDownCombo extends Component {
 
   handleRowClick = () => {
     this.dropdown.instance.close();
+    this.dropdown.instance.focus();
   };
 
   onOptionChanged = e => {
@@ -55,6 +56,7 @@ class FCDropDownCombo extends Component {
       return;
 
     this.dropdown.instance.close();
+    this.dropdown.instance.focus();
   };
 
   renderGrid = e => {

@@ -26,6 +26,7 @@ class App extends Component {
           displayExpr={"name"}
           columnConfigs={this.getColumnsConfig()}
         />
+        <input type="input" value="test" />
       </div>
     );
   }
